@@ -3,7 +3,7 @@ LABEL maintainer="mike@thebarkers.com" \
       description="An exercism 'bash' track image." \
       version="0.1.1"
 
-# Install git, process tools
+# Update, upgrade and install dev tools
 RUN apt-get update \
     && apt-get upgrade -y \
     && apt-get install -y git procps tree vim wget 
